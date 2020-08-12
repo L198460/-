@@ -8,7 +8,7 @@ body {
   background-size: cover;
 }
 
-.login-reg {
+.loginAndRegBox {
   width: 400px;
   height: 310px;
   background-color: #fff;
@@ -18,20 +18,37 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.log {
+.title-box {
   height: 60px;
   background: url('/assets/images/login_title.png') no-repeat center;
 }
-.regbox{
-    display: none;
-}
-.loginbox{
- float: right;
-margin-right: 20px;
-margin-top: 80px;
-
-  
+.reg-box {
+  display: none;
 }
 
+.layui-form {
+  padding: 0 30px;
+}
 
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
 
+.links a {
+  font-size: 12px;
+}
+
+.layui-form-item {
+  position: relative;
+}
+
+.layui-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.layui-input {
+  padding-left: 32px;
+}
